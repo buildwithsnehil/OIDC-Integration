@@ -2,7 +2,7 @@
 
 namespace BookStack\Access\Controllers;
 
-use BookStack\Access\LoginService;
+use BookStack\Access\Services\LoginService;
 use BookStack\Activity\ActivityType;
 use BookStack\Http\Controller;
 use BookStack\Users\Models\User;

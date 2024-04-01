@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Access;
+namespace BookStack\Access\Services;
 
 use BookStack\Access\Notifications\UserInviteNotification;
 use BookStack\Users\Models\User;

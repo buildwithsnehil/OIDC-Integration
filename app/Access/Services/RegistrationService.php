@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Access;
+namespace BookStack\Access\Services;
 
 use BookStack\Activity\ActivityType;
 use BookStack\Exceptions\UserRegistrationException;

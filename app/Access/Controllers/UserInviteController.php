@@ -2,7 +2,7 @@
 
 namespace BookStack\Access\Controllers;
 
-use BookStack\Access\UserInviteService;
+use BookStack\Access\Services\UserInviteService;
 use BookStack\Exceptions\UserTokenExpiredException;
 use BookStack\Exceptions\UserTokenNotFoundException;
 use BookStack\Http\Controller;

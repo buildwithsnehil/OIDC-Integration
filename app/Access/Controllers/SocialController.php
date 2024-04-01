@@ -2,9 +2,9 @@
 
 namespace BookStack\Access\Controllers;
 
-use BookStack\Access\LoginService;
-use BookStack\Access\RegistrationService;
-use BookStack\Access\SocialAuthService;
+use BookStack\Access\Services\LoginService;
+use BookStack\Access\Services\RegistrationService;
+use BookStack\Access\Services\SocialAuthService;
 use BookStack\Exceptions\SocialDriverNotConfigured;
 use BookStack\Exceptions\SocialSignInAccountNotUsed;
 use BookStack\Exceptions\SocialSignInException;

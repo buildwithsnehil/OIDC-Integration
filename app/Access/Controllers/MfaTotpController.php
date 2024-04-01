@@ -2,7 +2,7 @@
 
 namespace BookStack\Access\Controllers;
 
-use BookStack\Access\LoginService;
+use BookStack\Access\Services\LoginService;
 use BookStack\Access\Mfa\MfaSession;
 use BookStack\Access\Mfa\MfaValue;
 use BookStack\Access\Mfa\TotpService;

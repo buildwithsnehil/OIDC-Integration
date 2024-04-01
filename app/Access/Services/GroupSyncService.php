@@ -1,6 +1,6 @@
 <?php
 
-namespace BookStack\Access;
+namespace BookStack\Access\Services;
 
 use BookStack\Users\Models\Role;
 use BookStack\Users\Models\User;

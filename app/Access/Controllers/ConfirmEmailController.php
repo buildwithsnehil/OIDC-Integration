@@ -2,8 +2,8 @@
 
 namespace BookStack\Access\Controllers;
 
-use BookStack\Access\EmailConfirmationService;
-use BookStack\Access\LoginService;
+use BookStack\Access\Services\EmailConfirmationService;
+use BookStack\Access\Services\LoginService;
 use BookStack\Exceptions\ConfirmationEmailException;
 use BookStack\Exceptions\UserTokenExpiredException;
 use BookStack\Exceptions\UserTokenNotFoundException;

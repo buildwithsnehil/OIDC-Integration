@@ -2,7 +2,7 @@
 
 namespace BookStack\Access\Controllers;
 
-use BookStack\Access\LoginService;
+use BookStack\Access\Services\LoginService;
 use BookStack\Exceptions\NotFoundException;
 use BookStack\Users\Models\User;
 
