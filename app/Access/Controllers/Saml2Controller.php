@@ -2,7 +2,7 @@
 
 namespace BookStack\Access\Controllers;
 
-use BookStack\Access\Saml2Service;
+use BookStack\Access\Services\Saml2Service;
 use BookStack\Http\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
