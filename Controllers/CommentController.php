@@ -1,10 +1,10 @@
 <?php
 
-namespace BookStack\Activity\Controllers;
+namespace OIDCIntegration\Controllers;
 
-use BookStack\Activity\CommentRepo;
-use BookStack\Entities\Models\Page;
-use BookStack\Http\Controller;
+use OIDCIntegration\CommentRepo;
+use OIDCIntegration\Entities\Models\Page;
+use OIDCIntegration\Http\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Validation\ValidationException;
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace BookStack\Activity\Controllers;
+namespace OIDCIntegration\Controllers;
 
-use BookStack\Activity\ActivityType;
-use BookStack\Activity\Models\Activity;
-use BookStack\Http\Controller;
-use BookStack\Util\SimpleListOptions;
+use OIDCIntegration\ActivityType;
+use OIDCIntegration\Models\Activity;
+use OIDCIntegration\Http\Controller;
+use OIDCIntegration\Util\SimpleListOptions;
 use Illuminate\Http\Request;
 
 class AuditLogController extends Controller
