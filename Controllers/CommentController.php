@@ -3,7 +3,7 @@
 namespace OIDCIntegration\Controllers;
 
 use OIDCIntegration\CommentRepo;
-use OIDCIntegration\Entities\Models\Page;
+use OIDCIntegration\Models\Page;
 use OIDCIntegration\Http\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Validation\ValidationException;
